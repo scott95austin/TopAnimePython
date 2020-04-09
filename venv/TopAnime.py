@@ -1,10 +1,7 @@
 import pandas as pd
-import numpy as np
 import xlsxwriter
 import requests
-from urllib.request import urlopen
 from bs4 import BeautifulSoup
-from tabulate import tabulate
 
 #pulls web page data
 req = requests.get('https://myanimelist.net/topanime.php?type=bypopularity')
